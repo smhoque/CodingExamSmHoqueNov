@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Amazon E-Commerce" parallel="tests">
+
+    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="userName" value="ripon"/>
+    <parameter name="accessKey" value="6f132866-de72-43fd-b49a-e6f81d26bfe3"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="49.0"/>
+    <parameter name="url" value="https://www.metlife.com/"/>
+
+
+    <test name = "MetLife Search">
+        <classes>
+            <class name="Home.TestMetlifeHomePage"/>
+        </classes>
+    </test>
+</suite>

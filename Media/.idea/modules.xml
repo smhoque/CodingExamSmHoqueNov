@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Cnn/Cnn.iml" filepath="$PROJECT_DIR$/Cnn/Cnn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hbo/Hbo.iml" filepath="$PROJECT_DIR$/Hbo/Hbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Huffingtonpost/Huffingtonpost.iml" filepath="$PROJECT_DIR$/Huffingtonpost/Huffingtonpost.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Media.iml" filepath="$PROJECT_DIR$/Media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewYorkTimes/NewYorkTimes.iml" filepath="$PROJECT_DIR$/NewYorkTimes/NewYorkTimes.iml" />
+    </modules>
+  </component>
+</project>

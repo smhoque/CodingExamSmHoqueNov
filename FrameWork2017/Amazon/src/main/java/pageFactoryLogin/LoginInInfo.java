@@ -66,7 +66,6 @@ public class LoginInInfo extends CommonApi {
 
     public void AmazonLogin(String userID, String userPass) {
         AccountLogInLink.click();
-        ;
         UserId.sendKeys(userID);
         UserPass.sendKeys(userPass);
         LoginSubmit.click();

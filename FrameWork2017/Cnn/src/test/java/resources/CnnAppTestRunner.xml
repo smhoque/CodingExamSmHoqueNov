@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Potbelly Client on Chrome Browser">
 
 
 
 
-    <parameter name="useCloudEnv" value="false"/>
-    <parameter name="userName" value="Ripon"/>
-    <parameter name="accessKey" value="6f132866-de72-43fd-b49a-e6f81d26bfe3"/>
-    <parameter name="os" value="Windows"/>
-    <parameter name="url" value="http://www.cnn.com/"/>
-    <parameter name="browserName" value="chrome"/>
-    <parameter name="browserVersion" value="50"/>
+<parameter name="useCloudEnv" value="false"/>
+<parameter name="userName" value="Ripon"/>
+<parameter name="accessKey" value="6f132866-de72-43fd-b49a-e6f81d26bfe3"/>
+<parameter name="os" value="Windows"/>
+<parameter name="url" value="http://www.cnn.com/"/>
+<parameter name="browserName" value="chrome"/>
+<parameter name="browserVersion" value="50"/>
 
 
-    <test name = "Cnn Home Page">
-        <classes>
-            <class name="Home.TestCnnHome"/>
+<test name = "Cnn Home Page">
+    <classes>
+        <class name="Home.TestCnnHome"/>
 
-        </classes>
-    </test>
+    </classes>
+</test>
 
 
 </suite>

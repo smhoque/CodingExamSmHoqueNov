@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ChaseBank/ChaseBank.iml" filepath="$PROJECT_DIR$/ChaseBank/ChaseBank.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CitiBank/CitiBank.iml" filepath="$PROJECT_DIR$/CitiBank/CitiBank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chase/Chase.iml" filepath="$PROJECT_DIR$/Chase/Chase.iml" />
       <module fileurl="file://$PROJECT_DIR$/Finance.iml" filepath="$PROJECT_DIR$/Finance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Metlife/Metlife.iml" filepath="$PROJECT_DIR$/Metlife/Metlife.iml" />
     </modules>
   </component>
 </project>

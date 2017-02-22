@@ -9,7 +9,7 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="49.0"/>
-    <parameter name="url" value="http://www.amazon.com"/>
+    <parameter name="url" value="https://www.amazon.com"/>
 
 
     <test name = "Amazon Search">

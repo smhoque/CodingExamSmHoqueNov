@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="FaceBook" />
+        <module name="Linkedin" />
+        <module name="SnapChat" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="FaceBook" target="1.5" />
+      <module name="Linkedin" target="1.5" />
+      <module name="SnapChat" target="1.5" />
+      <module name="SocialNetwork" target="1.5" />
+      <module name="Twitter" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

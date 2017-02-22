@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FaceBook/FaceBook.iml" filepath="$PROJECT_DIR$/FaceBook/FaceBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linkedin/Linkedin.iml" filepath="$PROJECT_DIR$/Linkedin/Linkedin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SnapChat/SnapChat.iml" filepath="$PROJECT_DIR$/SnapChat/SnapChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SocialNetwork.iml" filepath="$PROJECT_DIR$/SocialNetwork.iml" />
+    </modules>
+  </component>
+</project>

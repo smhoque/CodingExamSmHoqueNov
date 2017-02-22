@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Cnn" />
+        <module name="Hbo" />
+        <module name="Huffingtonpost" />
+        <module name="NewYorkTimes" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Cnn" target="1.5" />
+      <module name="Hbo" target="1.5" />
+      <module name="Huffingtonpost" target="1.5" />
+      <module name="Media" target="1.5" />
+      <module name="NewYorkTimes" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

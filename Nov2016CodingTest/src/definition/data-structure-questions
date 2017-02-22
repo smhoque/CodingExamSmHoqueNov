@@ -1,0 +1,244 @@
+Please answer the below Data Structure Questions:
+
+why do we need data structure?
+
+Data structures organize data more efficiently and support to build more complex
+applications.More complex applications demand more calculations.
+Complex computing tasks are unlike our everyday experience.
+
+List out the areas in which data structures are applied extensively?
+Compiler Design, Operating system, Database Management System, Statistical analysis package,
+Numerical Analysis, Graphics, Artificial Intelligence, Simulation.
+
+what is an Array?
+An array is a container object that holds a fixed number of values of a single type. The length of an array is established when the array is created.
+After creation, its length is fixed.
+
+what is the difference between the Array and ArrayList?
+Resizable : Array is static in size that is fixed length data structure, One can not change the length after creating the Array object.
+ArrayList is dynamic in size. Each ArrayList object has instance variable capacity which indicates the size of the ArrayList.
+As elements are added to an ArrayList its capacity grows automatically.
+Performance : Performance of Array and ArrayList depends on the operation we are performing :
+resize() opertation : Automatic resize of ArrayList will slow down the performance as it will use temporary array to copy elements from the old array to new array.
+ArrayList is internally backed by Array during resizing  as it calls the native implemented method System.arrayCopy(src,srcPos,dest,destPos,length) .
+add() or get() operation : adding an element or retrieving an element from the array or arraylist object has almost same performance , as for ArrayList object these operations run in constant time.
+Primitives :  ArrayList can not contains primitive data types (like int , float , double) it can only contains Object while Array can contain both primitive data types as well as objects.
+Iterating the values : We can use iterator to iterate through ArrayList.The iterators returned by the ArrayList class's iterator and listiterator method are fail-fast.We can use for loop or for each loop to iterate through array .
+Type-Safety :In Java , one can ensure Type Safety through Generics. while Array is a homogeneous data structure , thus it will contain objects of specific class or primitives of specific  data type. In array if one try to store
+the different data type other than the specified while creating the array object , ArrayStoreException is thrown.
+Length :Length of the ArrayList is provided by the size() method while Each array object has the length variable which returns the length of the array.
+Adding elements : We can insert elements into the arraylist object using the add() method while  in array we insert elements using the assignment operator.
+Multi-dimensional :  Array can be multi dimensional , while ArrayList is always single dimensional.
+
+what is LinkedList?
+A linked list is a linear data structure where each element is a separate object.Each element (we will call it a node) of a list is comprising of two items - the data and a reference to the next node.
+The last node has a reference to null. The entry point into a linked list is called the head of the list. It should be noted that head is not a separate node, but the reference to the first node. If the list is empty then the head is a null reference.
+A linked list is a dynamic data structure. The number of nodes in a list is not fixed and can grow and shrink on demand. Any application which has to deal with an unknown number of objects will need to use a linked list.
+
+what is queue?
+A queue is a container of objects (a linear collection) that are inserted and removed according to the first-in first-out (FIFO) principle. An excellent example of a queue is a line of students in the food court of the UC.
+New additions to a line made to the back of the queue, while removal (or serving) happens in the front. In the queue only two operations are allowed enqueue and dequeue. Enqueue means to insert an item into the back of the queue, dequeue means removing the front item.
+
+what is stack?
+A stack is a container of objects that are inserted and removed according to the last-in first-out (LIFO) principle. In the pushdown stacks only two operations are allowed: push the item into the stack, and pop the item out of the stack.
+A stack is a limited access data structure - elements can be added and removed from the stack only at the top. push adds an item to the top of the stack, pop removes the item from the top. A helpful analogy is to think of a stack of books;we can remove only the top book,
+also we can add a new book on the top.
+
+what is FIFO and LIFO?
+FIFO is an acronym for first in, first out, a method for organizing and manipulating a data buffer, where the oldest (first) entry, or 'head' of the queue, is processed first. It is analogous to processing a queue with first-come, first-served (FCFS) behaviour: where the
+people leave the queue in the order in which they arrive.
+LIFO is an acronym for Last in, First out is a method of processing data in which the last items entered are the first to be removed. This is the opposite of LIFO is FIFO (First In, First Out), in which items are removed in the order they have been entered.
+
+what is the order of complexity?
+Generally, an algorithm has an asymptotic computational complexity. Assuming the input is of size N, we can say that the algorithm will finish at O(N), O(N^2), O(N^3), O(N*log(N))etc. This means that it is a certain mathematical expression of the size of the input, and
+the algorithm finishes between two factors of it.Generally, the smaller the order of complexity of the program's underlying algorithm, the faster it will run and the better it will scale as the input gets larger. Thus, we should often seek more efficient algorithms
+in order to reduce the order of complexity.
+
+what is the best case to search an element from an array?
+Best case for a simple linear search on a list occurs when the desired element is the first element of the list.
+
+what is the worst case to search an element from an array?
+The worst case arises when the element is at last position or not in the array, therefore we have to traverse the whole array giving n no. of repetitions over loop.
+
+what is tree in data structure?
+A tree is a collection of nodes connected by directed (or undirected) edges. A tree is a nonlinear data structure, compared to arrays, linked lists, stacks and queues which are linear data structures.
+A tree can be empty with no nodes or a tree is a structure consisting of one node called the root and zero or one or more subtrees. A tree has following general properties:
+One node is distinguished as a root.
+Every node (exclude a root) is connected by a directed edge from exactly one other node. A direction is: parent -> children
+
+what is graph in data structure?
+A graph is a collection of nodes called vertices, and the connections between them, called edges.
+
+what is the difference between the HashTable and HashMap?
+The hashtable do not allow the null values in data structuring while Hashmap allows the null values to be both of its keys and the values.
+The hashtable allows the duplicate keys in it but the hashmap cannot have the duplicate keys in it that is why there keys must only be mapped with only the single value.
+The hashtable contains an enumerator, which is not fail-safe but the hashmap contains an iterator which is basically fail-safe.
+The access to the hashmap is not synchronized while the access to hashtable is synchronized on the table.
+
+To organize our data in a structured way that we can access later.
+
+List out the areas in which data structures are applied extensively?
+
+
+what is an Array?
+An array is a container object that holds a fixed number of values of a single type. The length of an array is
+established when the array is created. After creation, its length is fixed.
+
+what is the difference between the Array and ArrayList?
+Difference between array and arraylist in java include eight points namely Resizable, Performance, Traversal ,Primitives
+, Length , Type-Safety, Adding elements , Multi-dimensional.
+
+what is LinkedList?
+a linked list is a linear collection of data elements, called nodes, each pointing to the next node by means of a
+pointer. It is a data structure consisting of a group of nodes which together represent a sequence.
+
+what is queue?
+It represents an ordered list of objects just like a List , but its intended use is slightly different.
+A queue is designed to have elements inserted at the end of the queue, and elements removed from the beginning of the queue.
+
+what is stack?
+A stack is a data structure that allows data to be inserted (a 'push' operation), and removed (a 'pop' operation).
+Many stacks also support a read ahead (a 'peek' operation), which reads data without removing it.
+A stack is a LIFO-queue, meaning that the last data to be inserted will be the first data to be removed.
+
+what is FIFO and LIFO?
+First In First Out and Last In First Out.
+
+what is the order of complexity?
+Big O notation is that we are measuring the time and space complexity of an algorithm in terms of the growth of input size n.
+
+what is the best case to search an element from an array?
+O(n)
+
+what is the worst case to search an element from an array?
+O(n)
+
+what is tree in data structure?
+trees are made up of nodes. A common kind of tree is a binary tree, in which each node contains a reference to two
+other nodes (possibly null).
+
+what is graph in data structure?
+A graph is an object consisting of a vertex set and an edge set.
+
+what is the difference between the HashTable and HashMap?
+Hashtable is synchronized whereas hashmap is not. 2)Another difference is that iterator in the HashMap is fail-safe
+while the enumerator for the Hashtable isn't. If you change the map while iterating, you'll know.
+HashMap permits null values in it, while Hashtable doesn't.
+>>>>>>> b366a40d7778f36bd139ad5ed521bd9e39d5b4d7
+
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+RDBMS = Array (i.e. Array of structures)
+Network data model = Graph
+Hierarchical data model = Trees
+
+How HashMap works in java?
+HashMap works on the principal of hashing.
+Map.Entry interface - This interface gives a map entry (key-value pair). HashMap in Java stores both key and value object, in bucket, as an object of Entry class which implements this nested interface Map.Entry.
+hashCode() -HashMap provides put(key, value) for storing and get(key) method for retrieving Values from HashMap. When put() method is used to store (Key, Value) pair, HashMap implementation calls hashcode on
+Key object to calculate a hash that is used to find a bucket where Entry object will be stored. When get() method is used to retrieve value, again key object is used to calculate a hash which is used then to find a bucket where that particular key is stored.
+equals() - equals() method is used to compare objects for equality. In case of HashMap key object is used for comparison, also using equals() method Map knows how to handle hashing collision (hashing collision means more than one key having the same hash value,
+thus assigned to the same bucket. In that case objects are stored in a linked list, refer figure for more clarity.
+Where hashCode method helps in finding the bucket where that key is stored, equals method helps in finding the right key as there may be more than one key-value pair stored in a single bucket.
+
+What is ArrayIndexOutOfBoundsException in java? When it occurs?
+<<<<<<< HEAD
+Every runtime problem, in Java, is represented by a class. For example, the problem of accessing an array element beyond the size of array is represented by a class known as ArrayIndexOutOfBoundsException (from java.lang package).
+
+What are the different ways of copying an array into another array?
+1. An own implementation of an copying algorithm.
+2. use of API functions.
+
+What is difference between an array and a linked list?
+Fundamentally, an array is a pre-allocated block of memory holding an ordered bunch of items. A linked list is a data structure with no pre-allocated memory, but rather each item in the list contains the address of "adjacent"
+items (the next one and the previous one).
+To access a specific element N in an array, it's as simple as getting the address of the first one, then adding N to that address. Instant retrieval of data.
+To access a specific element N in a linked list, we need to iterate through the list because there's no indication of where element N is, just where the next one is.
+To reorder elements N and M in an array, it's as simple as copying the data from element N to a third location, writing the data from element M into location N, then writing the data from element N to location M.
+(Third location necessary to do the swap).  If our objects are huge, then this means a lot of data copying and it may be horribly inefficient to do so.
+To reorder elements N and M in a linked list, we must first retrieve the memory locations of both, but then all that has to be done is to swap the pointers -- that is, make N-1 point to M, M point to N+1, M-1 point to N, and N point to N+1.
+These pointers are small in memory size, so swapping them is trivial.  If our objects are small, then there are more swaps involved than reordering an array, but if they're big then we've saved ourself a buttload of time and memory by avoiding
+having to actually move the object from one memory location to another.
+
+What is DFS and BFS?
+DFS (Depth First Search) and BFS (Breadth First Search) are search algorithms used for graphs and trees. When we have an ordered tree or graph, like a BST, it’s quite easy to search the data structure to find the node that we want.
+But, when given an unordered tree or graph, the BFS and DFS search algorithms can come in handy to find what we’re looking for. The decision to choose one over the other should be based on the type of data that one is dealing with.
+In a breadth first search, we start at the root node, and then scan each node in the first level starting from the leftmost node, moving towards the right. Then we continue scanning the second level (starting from the left) and the
+third level, and so on until we’ve scanned all the nodes, or until we find the actual node that we were searching for. In a BFS, when traversing one level, we need some way of knowing which nodes to traverse once we get to the next level.
+The way this is done is by storing the pointers to a level’s child nodes while searching that level. The pointers are stored in FIFO (First-In-First-Out) queue. This, in turn, means that BFS uses a large amount of memory because
+we have to store the pointers.
+In a depth first search, we start at the root, and follow one of the branches of the tree as far as possible until either the node we are looking for is found or we hit a leaf node ( a node with no children). If we hit a leaf node,
+then we continue the search at the nearest ancestor with unexplored children.
+
+What is Recursion?
+Recursion in computer science is a method where the solution to a problem depends on solutions to smaller instances of the same problem (as opposed to iteration).The approach can be applied to many types of problems, and recursion is
+one of the central ideas of computer science
+
+What is Big-(O)-notation?
+Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.
+In computer science, big O notation is used to classify algorithms by how they respond to changes in input size, such as how the processing time of an algorithm changes as the problem size becomes extremely large.
+In analytic number theory it is used to estimate the "error committed" while replacing the asymptotic size of an arithmetical function by the value it takes at a large finite argument. A famous example is the problem of
+estimating the remainder term in the prime number theorem.
+=======
+When you try to access an element of an array that doesn't exit. Example: access 11th element of an array that is 10
+elements long.
+
+What are the different ways of copying an array into another array?
+
+
+What is difference between an array and a linked list?
+In array, each element is independent, no connection with previous element or with its location. In Linked list,
+location or address of elements is stored in the link part of previous element/node. In array, no pointers are used
+like linked list so no need of extra space in memory for pointer.
+
+What is DFS and BFS?
+In array, each element is independent, no connection with previous element or with its location. In Linked list,
+location or address of elements is stored in the link part of previous element/node. In array, no pointers are used
+like linked list so no need of extra space in memory for pointer.
+
+What is Recursion?
+A method calling itself.
+
+What is Big-(O)-notation?
+A way to measure how long a certain sort takes to complete.
+>>>>>>> b366a40d7778f36bd139ad5ed521bd9e39d5b4d7
+
+Outlined different kind of sorting algorithm with time complexity?
+Bubble Sort [Best: O(n), Worst:O(N^2)]
+Selection Sort [Best/Worst: O(N^2)]
+Insertion Sort [Best: O(N), Worst:O(N^2)]
+Quicksort [Best: O(N lg N), Avg: O(N lg N), Worst:O(N^2)]
+Heapsort [Best/Avg/Worst: O(N lg N)]
+Counting sort [Best/Avg/Worst: O(N)]
+Radix sort [Best/Avg/Worst: O(N)]
+
+Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a)In terms of Accessing element.
+  b)In terms of Inserting element.
+  c)In terms of Searching element.
+  d)In terms of Removing element.
+
+Data Structure                  |  Accessing  | Inserting | Searching | Removing
+--------------------------------------------------------------------------------
+Array (T[])                     |    O(1)     |    O(N)   |    O(N)   |   O(N)
+--------------------------------------------------------------------------------
+Linked List (LinkedList<T>)     |    O(N)     |    O(1)   |    O(N)   |   O(N)
+--------------------------------------------------------------------------------
+Dynamic Array (List<T>)         |    O(1)     |    O(1)   |    O(N)   |   O(N)
+--------------------------------------------------------------------------------
+Stack (Stack<T>)                |     -       |    O(1)   |     -     |     -
+--------------------------------------------------------------------------------
+Queue (Queue<T>)                |     -       |    O(1)   |     -     |   O(1)
+--------------------------------------------------------------------------------
+Dictionary, implemented with    |     -       |    O(1)   |     O(1)  |   O(1)
+a hash-table(Dictionary<k,T>
+--------------------------------------------------------------------------------
+Dictionary, implemented witha   |     -       |  O(log(N))| O(log(N)) |O(log(N))
+balanced search tree
+(SortedDictionary<K, T>)
+--------------------------------------------------------------------------------
+Set, implemented with a         |     -       |    O(1)   |  O(1)     |  O(1)
+hash-table (HashSet<T>)
+--------------------------------------------------------------------------------
+set,implemented with a balanced |     -       |  O(log(N))| O(log(N)) |O(log(N))
+search tree (SortedSet<T>)
+--------------------------------------------------------------------------------

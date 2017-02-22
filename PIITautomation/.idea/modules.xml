@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FaceBook/FaceBook.iml" filepath="$PROJECT_DIR$/FaceBook/FaceBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PIITautomation.iml" filepath="$PROJECT_DIR$/PIITautomation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PeopleNTech/PeopleNTech.iml" filepath="$PROJECT_DIR$/PeopleNTech/PeopleNTech.iml" />
+    </modules>
+  </component>
+</project>
